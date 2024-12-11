@@ -5,10 +5,11 @@
   "author": "Steven Levithan",
   "license": "MIT",
   "type": "module",
-  "exports": {
+   "exports": {
     ".": {
       "types": "./types/index.d.ts",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.mjs",
     }
   },
   "browser": "./dist/index.min.js",
